@@ -1,0 +1,189 @@
+body{
+  background-color:hsl(60, 35%, 45%);
+}
+#main{
+  padding:150px;
+}
+
+#icon{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  padding-top:30px;
+  padding-left:30px;
+  overflow: hidden;
+  margin-top: 0px;
+  float:left;
+}
+#header{
+  width:100%;
+  display:block;
+  position:relative;
+  background-color: black;
+}
+#nav-bar{
+  background-color: hsl(60, 85%, 50%);
+  display: inline-block;
+  width:100%;
+}
+#header img{
+	padding-top:0px;
+	width: 100%;
+}
+#nav-links{
+  margin: 20px;
+  float: right;
+  font-size:20px;
+  padding:;
+  background-color: #333;
+}
+
+#nav-links a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+#nav-links a:hover {
+  background-color: #111;
+}
+
+#container-about{
+  display:block;
+  margin:10px;
+  width:100%;
+  height:100%;
+  text-align: center;
+  padding: 0px;
+  position: relative;
+  background-color:#FFFFFF;
+}
+#container-project{
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  width:100%;
+  display:block;
+  position: relative;
+  background-color:#FFFFFF;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: hsl(60, 85%, 50%);
+  padding: 10px;
+}
+.grid-container p{
+  font-size:20px;
+  font-weight:900;
+  background-color:hsl(60, 85%, 50%);
+  width:100px;
+  height:25px; 
+  text-align: center;
+}
+.grid-item {
+  background-color: #FFFFFF;
+  border: 1px solid hsl(60, 85%, 50%);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item img{
+	padding-top:20px;
+	width:400px;
+	height:300px;
+}
+.grid-item a{
+color:black;
+text-decoration:none;
+}
+#footer{
+  color:#FFFFFF;
+  width: 100%;
+  margin:10px;
+  background-color: #333;
+  display:block;
+  text-align: center;
+}
+a{
+  color:#FFFFFF;
+  padding:30px;
+  font-size:25px;
+  
+}
+footer.bottom{
+  text-align: right;
+  padding: 0 40px 5px 0;
+}
+
+///////////////////////////
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+#slide-text{
+	padding:150px;
+	display:block;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 0;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  text-decoration:none;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
